@@ -1,0 +1,193 @@
+/* Stylesheet for Resso Collection 2022*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.divider {
+    border-bottom: 2px solid #222046;
+}
+
+img {
+    border: 3px #6B5A70;
+    border-radius: 5px ;
+    padding-left: 20px;
+}
+h1 {
+    border: 5px solid #f5d0c9;
+    padding: 20px;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f5d0c9;
+    color: #6B5A70;
+    text-align: center;
+}
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+} 
+
+.bigbold {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-left: 21rem;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 800;
+
+}
+.rocky{
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+/*
+.fontstyl{
+    font-style: italic;
+    line-height: 3rem;
+    color: burlywood;
+    background-color: bisque;
+    height: 300px;
+    padding: initial;
+
+} */
+
+a .pseudo:link {
+    color: green;
+}
+
+div {
+    display: flex;
+    justify-content: space space-between;
+    align-items: center;
+    border: 5px solid #f5d0c9;
+    padding: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f5d0c9;
+    color: #F54C3D;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 button {
+    background-color: seashell;
+    color: #222046;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    border-radius: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+BUTTON:hover {
+    cursor: pointer;
+}
+
+h2 {
+    display: flex;
+    justify-content: center; 
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+h2 p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif   ;
+    padding: 2rem;
+    font-weight: 600;
+}
+
+.unite {
+    font-family: cursive;
+    padding-left: 12rem;
+    font-stretch: extra-expanded;
+}
+
+.unity {
+    
+    border-radius: 3.5rem;
+    size-adjust: auto;
+}
+
+
+a:link {
+    color: #6B5A70;
+}
+
+#test {
+    color: navajowhite;
+}
+
+nav ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+    border: 2px solid navy  ;
+    width: 10rem;
+    font-size: 20px ;
+    background-color: snow;
+    text-align: center;
+    margin: 1.4rem;
+    border-radius: 2rem;
+    display: inline-block;
+    border-right: 4px;
+}
+
+
+nav a {
+    
+    color: skyblue;
+    font-size: 1.3rem;
+    display: block;
+    padding: .6rem;
+}
+
+nav li:hover {
+    color: aqua;
+    background-color: blue;    
+}
+
+article {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+.unite {
+   
+}
+
+.inline {
+    
+    font-size: xx-large;   
+    font-weight: bolder;
+    text-align: start;
+    margin-left: 0%;
+    border: 2px solid red;
+    
+}
+
+.floatleft {
+    float: left;
+}
+article:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}

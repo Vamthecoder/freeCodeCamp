@@ -1,0 +1,13 @@
+#wrap {
+ width: 75%;
+}
+
+#wrapper {
+    width: 25%;
+}
+
+.divider {
+    background-color: aqua;
+    border: 2px solid black;
+    
+}
